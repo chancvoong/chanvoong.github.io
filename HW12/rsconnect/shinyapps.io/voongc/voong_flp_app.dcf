@@ -1,0 +1,10 @@
+name: voong_flp_app
+title: Voong_FLP_app
+account: voongc
+server: shinyapps.io
+appId: 172514
+bundleId: 794280
+url: https://voongc.shinyapps.io/voong_flp_app/
+when: 1492568207.637
+asMultiple: FALSE
+asStatic: FALSE
