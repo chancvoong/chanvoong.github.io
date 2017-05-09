@@ -12,7 +12,7 @@ percent_map <- function(var, color, legend.title, min = 0, max = 100) {
   percents <- as.integer(cut(var, 100, 
     include.lowest = TRUE, ordered = TRUE))
   fills <- shades[percents]
-
+  
   # plot choropleth map
   map("county", fill = TRUE, col = fills, 
     resolution = 0, lty = 0, projection = "polyconic", 
